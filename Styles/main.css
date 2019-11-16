@@ -1,0 +1,164 @@
+/*--Header And NAv--*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: century Gothic;
+}
+
+header {
+  background-color: black;
+  /*background-image:linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0, 0.5)),url(archeryAcademy-logo-color.png);
+    */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  transition: 0.6s ease;
+  border: 1px solid transparent;
+}
+
+.main-nav li.active a {
+  border: 1px solid white;
+}
+
+.main-nav li a:hover {
+  border: 1px solid white;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  float: left;
+}
+
+body {
+  font-family: monospace;
+}
+
+.row {
+  max-width: 1200px;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 275px;
+}
+
+/*.Button {
+  margin-top: 30px;
+  margin-left: 440px;
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  top: 60%;
+  left: 40%;
+  transition: translate(-50%, 50%);
+}
+
+.btn-one {
+  background-color: darkorange;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-Two {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-one:hover {
+  background-color: darkorange;
+  transition: all 0.5s ease-in;*/
+/*--End Of Header and Nav--*/
+}
+
+/*--ABOUT Us--*/
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+
+}
+#more{
+  display: none;
+}
+
+/*--End Of ABOUT Us--*/
+/*--Services*/
+h3 {
+  text-align: center;
+}
+
+/*End Of services*/
+/*--Instructors--*/
+.instructors h4 {
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+
+.team .t-member {
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .t-member {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px;
+}
+
+/*--End Of Instructors--*/
+/*--Footer--*/
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #45a1ff;
+  color: #fff;
+}
+
+/*--End Of Footer--*/
