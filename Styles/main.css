@@ -1,6 +1,10 @@
 
 *
 /* HEADER AND NAV  */
+header{
+  height: 100vh;
+  background-position: center;
+}
   .main-nav{
     font-size: 14px;
     font-weight: 400;
@@ -24,18 +28,20 @@
 
 /* LOGO */
 .logo{
-  border-top: 4px solid #648880;
-  float: left;
+  /*border-top: 4px solid black;*/
+  float:left;
   font-size: 48px;
   font-weight: 100;
   letter-spacing: .5px;
   line-height: 44px;
-  padding: 40px 0 22px 0;
+  padding: 20px 0 22px 0;
   text-transform: uppercase;
 }
 
 /* Main Page*/
 .title{
+  text-transform: uppercase;
+
   color: #fff;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
@@ -47,18 +53,21 @@
 
 
 /* TYPOHRAPHY */
-h1, h2, h3,h4 ,h5 ,h6{
+
+/*-- font-family: 'Lato', sans-serif;{ -- */
+
+h1, h2, h3,h4 ,h5{
 
 }
 h2{
-  font-size: 24px, Arial Bold;
+  font-size: 24px;
 
 }
 h3{
-  font-size: 17px, Arial Bold;
+  font-size: 17px;
 }
 body{
-  font-size: 17px, Arial Regular;
+  font-size: 17px;
 }
 /* BODY */
 body{
@@ -86,10 +95,9 @@ body{
 .row, .row-alt{
   min-width: 960px;
 }
-.row-alt{
+/*.row-alt{
   background: #cbe2c1{
-  padding: 44px 0 22px 0;
-  }
+  }*/
 
 /* GRID */
 .grid{
@@ -97,6 +105,7 @@ body{
   padding-right: 15px;
   margin: 0 auto;
   width: 960px;
+  padding: 44px 0 22px 0;
 }
 .col1-2{
   padding-left: 15px;
@@ -108,7 +117,7 @@ body{
 /* BUTTON */
 .button {
 margin-top: 30px;
-margin-left: 500px;
+margin-left: 50px;
 }
 .btn {
   border: 1px solid white;
@@ -123,15 +132,17 @@ margin-left: 500px;
 
 .btn-one {
   background-color: gray;
-  font-family: "Roboto", sans-serif;
+  font-family: "Arial", sans-serif;
+  font-style: italic;
 }
 
 .btn-two {
-  font-family: "Roboto", sans-serif;
+  font-family: "Arial", sans-serif;
+  font-style: italic;
 }
 
 .btn-two:hover {
-  background-color: darkorange;
+  background-color: white;
   transition: all 0.5s ease-in;
 }
 /* GRID */
@@ -168,6 +179,24 @@ input, textarea{
 
 /* Service.html */
 
+/* contact.html */
+
+/* registration.html */
+.details, h6{
+  text-align: center;
+}
+h6{
+  font-size: 19px;
+}
+.details{
+  font-family:cursive;
+}
+.btn-default{
+  border: 0;
+  background: #648880;
+
+}
+
 /* FOOTER */
 .main-footer{
   color: #648880;
@@ -175,7 +204,11 @@ input, textarea{
   padding-top: 44px;
   padding-bottom: 44px;
 }
-.main-footer{
-  color:#fff;
-
+.main-footer li{
+  margin: 0 10px;
+  text-align:center;
+  display: inline-block;
+}
+.main-footer li:last-child{
+  margin-right: 0;
 }
